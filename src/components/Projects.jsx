@@ -8,16 +8,14 @@ const ProjectCard = ({ image, title, description, git, technologies,live }) => {
     return (
         <div className="max-w-sm sm:max-w-sm md:max-w-sm bg-gray-900 border border-neutral-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             
-            {title ==='Capture Cloud' && <a href="#">
-                <img className="w-full rounded-t-lg h-auto object-cover " src={copeople} alt="" />
-            </a>}
-            {title ==='Yumi Chat' && <a href="#">
+            {title === 'Capture Cloud' && (
+                <img className="w-full rounded-t-lg h-auto object-cover" src={copeople} alt="" />
+            )}
+            {title ==='Yumi Chat' && <a href="https://yumiping.netlify.app/">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={yumi} alt="" />
             </a>}
             <div className="p-4 sm:p-6">
-                <a href="#">
                     <h5 className="text-2xl sm:text-xl md:text-2xl lg:text-3xl font-bold tracking-tight text-white bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-pink-500">{title}</h5>
-                </a>
                 <p className="font-normal text-sm sm:text-base md:text-lg text-gray-300 dark:text-gray-400">{description}</p>
             </div>
             <div className='m-2 sm:m-4 lg:m-6 flex justify-between'>
@@ -52,7 +50,6 @@ const Projects = () => {
                         image={item.image}
                         title={item.title}
                         description={item.description}
-                        links={item.links}
                         git={item.git}
                         live={item.live}
                         technologies={item.technologies}
