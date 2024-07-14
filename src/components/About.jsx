@@ -32,9 +32,9 @@ const About = () => {
         <div className='flex flex-col justify-around'>
           <div className='sm:px-16 px-2'>
             <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>Introduction</h2>
-            <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>👨‍💻 Hi, I'm Gaurav Patil, a 2022 graduate🎓 with a passion for crafting robust backend systems and captivating mobile applications.As a seasoned <a className='text-green-300 hover:text-green-500 duration-300' href='https://www.linkedin.com/in/gauravpatil7009/' target='_blank'>Software developer</a> I specialize in MERN stack🚀.
+            <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>👨‍💻 Hi, I'm Gaurav Patil, a 2022 graduate🎓 with a passion for crafting robust backend systems and captivating mobile applications.As a seasoned <a className='text-green-300 hover:text-green-500 duration-300' href='https://www.linkedin.com/in/gauravpatil7009/' target='_blank' rel="noreferrer">Software developer</a> I specialize in MERN stack🚀.
               <br />
-              ✍️ Beyond coding, I love playing  <a className=' text-purple-300 hover:text-purple-400 duration-300'  target='_blank'>chess, cooking & Hikking...</a>
+              ✍️ Beyond coding, I love playing  <a className=' text-purple-300 hover:text-purple-400 duration-300'  target='_blank' rel="noreferrer">chess, cooking & Hikking...</a>
              </p>
 
             <ButtonLink

@@ -8,10 +8,10 @@ const ProjectCard = ({ image, title, description, git, technologies,live }) => {
     return (
         <div className="max-w-sm sm:max-w-sm md:max-w-sm bg-gray-900 border border-neutral-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             
-            {title=='Capture Cloud' && <a href="#">
+            {title ==='Capture Cloud' && <a href="#">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={copeople} alt="" />
             </a>}
-            {title=='Yumi Chat' && <a href="#">
+            {title ==='Yumi Chat' && <a href="#">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={yumi} alt="" />
             </a>}
             <div className="p-4 sm:p-6">
