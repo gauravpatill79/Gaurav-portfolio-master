@@ -1,10 +1,12 @@
 
 export const services = [
     {
+        id:1,
         title: "Technology Enthusiast",
         icon: 'https://csgeeek.github.io/web.png',
     },
     {
+        id:2,
         title: "Software Engineer",
         icon: 'https://csgeeek.github.io/web.png',
     },
