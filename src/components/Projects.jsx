@@ -11,7 +11,7 @@ const ProjectCard = ({ image, title, description, git, technologies,live }) => {
             {title === 'Capture Cloud' && (
                 <img className="w-full rounded-t-lg h-auto object-cover" src={copeople} alt="" />
             )}
-            {title ==='Yumi Chat' && <a href="https://yumiping.netlify.app/">
+            {title ==='YumiPing' && <a href="https://yumiping.netlify.app/">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={yumi} alt="" />
             </a>}
             <div className="p-4 sm:p-6">
@@ -27,6 +27,7 @@ const ProjectCard = ({ image, title, description, git, technologies,live }) => {
                         >
                             #{tag}
                         </p>
+                      
                     ))}
                 </div>
                 <a href={git} className="text-red-300 border border-gray-200 rounded-lg shadow p-1 sm:p-2 lg:p-3 hover:text-green-500 duration-300 ">GitHub</a>
@@ -61,7 +62,6 @@ const Projects = () => {
     );
 }
 
-
 export const project = [
     {
         title:'Capture Cloud',
@@ -71,12 +71,12 @@ export const project = [
         technologies:['ReactJS','Cloudinary','NextJs','Typescript']
     },
     {
-        title:'Yumi Chat',
-        description:'Capture Cloud is a dynamic web application I crafted using React, Cloudinary, NextJs, Typescript. This project allows user to store there image on cloud, edit there image using Cloudinary AI feature and much more.',
+        title:'YumiPing',
+        description:"YumiPing is a real-time chat web application that enables users to communicate seamlessly with one another. This project is built using React, Zustand, and Firebase.",
         image: {yumi},
         git:'https://github.com/gauravpatill79/YuMi-chat-app',
         live:"https://yumiping.netlify.app/",
-        technologies:['ReactJS','Typescript','Firebase']
+        technologies:['ReactJS','Zustand','Firebase','React-toastify']
     },
    
 ]
