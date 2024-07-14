@@ -20,7 +20,7 @@ const Home = () => {
 
 	return (
 		<div className='area relative z-0 bg-black w-screen h-screen'>
-			<ul class="circles">
+			<ul className="circles">
 				<li></li>
 				<li></li>
 				<li></li>
