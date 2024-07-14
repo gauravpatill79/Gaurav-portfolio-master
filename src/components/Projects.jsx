@@ -72,7 +72,7 @@ export const project = [
     },
     {
         title:'YumiPing',
-        description:"YumiPing is a real-time chat web application that enables users to communicate seamlessly with one another. This project is built using React, Zustand, and Firebase.",
+        description:"YumiPing is a real-time chat web application that enables users to communicate seamlessly with one another. This project is built using React, Zustand, and Firebase. The app features user authentication & notifications",
         image: {yumi},
         git:'https://github.com/gauravpatill79/YuMi-chat-app',
         live:"https://yumiping.netlify.app/",
